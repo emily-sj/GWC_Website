@@ -4,29 +4,279 @@
 	<head>
 
 		<title>Emily's Homepage</title>
+		<link rel = "stylesheet" type= "text/css" href="style.css">
+		<link rel="styesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style> 
+			p.ex2 {
+    		font: italic bold 12px/30px Georgia, serif;
+			}
+		</style>
+		<div class="w3-bar w3 white">
+		<a href="home.html">
+		<button class="w3-bar w3 white">Home</button </a>
 
-	</head>	
+		
+	
+ 		</head>	
+
+
 
 
 	<body>
 		<center>
 
-		<h1>Welcome to my Homepage! </h1>
-		<h2> This is a smaller header</h2>
+		<h1>Emily Elizabeth San Juan </h1>
+		<h3> Welcome to my Homepage!</h3>
+
+		
+		<a href="codePortfolio.html">Code Portfolio </a>
+		</br>
+		<a href="photoPortfolio.html">Photo Portfolio </a>
+
+
+		</br>
+		</br>
+
 		<a href="https://www.instagram.com/emily.sj/?hl=en">
 		<img src="instagramlogo.png" height= "90" width= "90" alt= "Follow me on instgram!">
-		<img src="githubLogo.png" height="90" width="200" alt="Here is my Git Hub Portfolio.">
-		</a
+		
+		
+		</a>
+
+
+		<a href = "https://github.com/emily-sj/Girls_Who_Code">
+		<img src="githubLogo1.png" height="90" width="90" alt="Here is my Git Hub Portfolio.">
+		</a>
+
 		</br>
-		<p>This is my first website!</p>
+
+		<p class="ex2">This is my first coded website!</p>
 		</br>
 		<a href = "https://github.com/emily-sj/Girls_Who_Code">My Girls Who Code Github Portfolio.</a>
+
 		</br>
 		
 		</a>
+
 		</br>
+
 		<p> Here is a picture of me! </p>
-		<img src = "pic1.jpg" alt= "Here is a picture when it was my brother's wedding.">
+		
+		<img src = "pic1.jpg" alt= "Here is a picture of me when it was my brother's wedding.">
+
+
+		</br>
+		<h3 class="ex2">About me</h3>
+		<ul style="list-style-type:none">
+  			<li>Birthday: September 7</li>
+  			<li>Ethnicity:Mexican,American</li>
+  			<li>Gender: Female</li>
+		</ul>
+		<p1> I am currently a senior attending Culver City High School with an aspiration to major in Computer Science. I am planning to pursue a career in cybersecurity.  </p1>
+		<table style="width:100%">
+		  <tr>
+		    <th>Likes</th>
+		    <th>Dislikes</th> 
+		    
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>music</td>
+		    <td>curfews</td>
+
+		    
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>food</td>
+		    <td>unrespectful people</td>
+		    
+		  </tr>
+		  <tr>
+		    <td></td>
+		    <td>sleep</td>
+		    <td>spiders</td>
+		   
+		  </tr>
+		</table>
+		<br>
+
+		<table id="t01">
+		  <tr>
+		 
+		    
+		  </tr>
+		</table>
+
+		<h4>Fun fact: </h4>
+		<p1>I love listening to bachata!</p1>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+			* {box-sizing:border-box}
+			body {font-family: Verdana,sans-serif;margin:0}
+			.mySlides {display:none}
+
+			/* Slideshow container */
+			.slideshow-container {
+			  max-width: 1000px;
+			  position: relative;
+			  margin: auto;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+			  cursor: pointer;
+			  position: absolute;
+			  top: 50%;
+			  width: auto;
+			  padding: 16px;
+			  margin-top: -22px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 18px;
+			  transition: 0.6s ease;
+			  border-radius: 0 3px 3px 0;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+			  right: 0;
+			  border-radius: 3px 0 0 3px;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+			  background-color: rgba(0,0,0,0.8);
+			}
+
+			/* Caption text */
+			.text {
+			  color: #f2f2f2;
+			  font-size: 15px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  bottom: 8px;
+			  width: 100%;
+			  text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			  cursor:pointer;
+			  height: 13px;
+			  width: 13px;
+			  margin: 0 2px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			  transition: background-color 0.6s ease;
+			}
+
+			.active, .dot:hover {
+			  background-color: #717171;
+			}
+
+			/* Fading animation */
+			.fade {
+			  -webkit-animation-name: fade;
+			  -webkit-animation-duration: 1.5s;
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			@keyframes fade {
+			  from {opacity: .4} 
+			  to {opacity: 1}
+			}
+
+			/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) {
+			  .prev, .next,.text {font-size: 11px}
+			}
+			</style>
+			</head>
+			<body>
+
+			<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="santaMonica.jpg" style="width:100%">
+			  <div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="santaMonicaSign.jpg" style="width:100%">
+			  <div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="santaMonicaPier.jpg" style="width:100%">
+			  <div class="text">Caption Three</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+
+
+
+				
+
 
 		</center>
 
