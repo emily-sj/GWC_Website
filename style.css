@@ -5,5 +5,5 @@ body{
     border-image-source: url(border.png);
     border-image-repeat: round;
     border-image-slice: 150;
-    
+    font-family:waltograph;    
 }
