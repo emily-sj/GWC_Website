@@ -1,0 +1,9 @@
+body{
+	background-color: #C2DEED;
+    border: 30px solid transparent;
+    padding: 30px;
+    border-image-source: url(border.png);
+    border-image-repeat: round;
+    border-image-slice: 150;
+    font-family:waltograph;    
+}
